@@ -8,7 +8,7 @@ let age_2 = 18;
 let age_3 = 60;
 
 function yourAge(age_1) {
-  console.log(typeof age_1);
+  
 
   if (typeof age_1 != 'number' || age_1 <=0 || age_1 >=120) {
     return console.log('Technical work.');
@@ -24,4 +24,25 @@ function yourAge(age_1) {
   }
 }
 
+yourAge()
+yourAge('');
+yourAge(0);
+yourAge('0');
+yourAge(false);
+yourAge(true);
+yourAge(undefined);
+yourAge('adsad');
+yourAge('!%&@');
+yourAge('12asd')
+yourAge(-1);
+yourAge('-1');
+yourAge(1);
+yourAge('1');
+yourAge(21);
+yourAge('21');
 yourAge(60);
+yourAge('60');
+yourAge(61);
+yourAge('61');
+yourAge(121);
+yourAge('121');

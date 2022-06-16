@@ -24,3 +24,7 @@ function yourAge(age_1) {
     };
 
 console.log(yourAge());
+console.log(yourAge(12));
+console.log(yourAge(23));
+console.log(yourAge(61));
+console.log(yourAge('asdad'));
