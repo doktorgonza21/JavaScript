@@ -53,7 +53,7 @@ let item_6 = 15;
 
 let item_6_type = item_6;
 
-console.log(`item_6 == ${typeof item_6}, item_6_type == ${typeof item_6_type}`);
+console.log(`item_6 == ${typeof item_6}, item_6_type == ${item_6_type}`);
 
 // 22. Создать переменную item_7 и в ней преобразовать item_6 в String.
 
@@ -66,7 +66,7 @@ item_6 = '';
 
 let item_7_type = typeof item_7;
 
-console.log(`item_7 == ${typeof item_7}, item_7_type == ${typeof item_7_type}`);
+console.log(`item_7 == ${typeof item_7}, item_7_type == ${item_7_type}`);
 
 // 26. Создать переменную “age_1” и присвоить ей значение 10
 // 27. Создать переменную “age_2” и присвоить ей значение 18

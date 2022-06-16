@@ -16,7 +16,7 @@ function yourAge(age_1) {
   if (age_1 < age_2) {
     return console.log(`You don’t have access cause your age is ${age_1}, It’s less then ${age_2}.`);
   }
-  if (age_1 >= age_2 && age_1 < age_3) {
+  if (age_1 >= age_2 && age_1 <= age_3) {
     return console.log('Welcome  !');
   }
   if (age_1 > age_3) {
@@ -24,4 +24,4 @@ function yourAge(age_1) {
   }
 }
 
-yourAge('2');
+yourAge(60);
